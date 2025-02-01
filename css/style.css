@@ -515,6 +515,12 @@ a:focus {
     font-size: 16px;
 }
 
+.about .about-text span{
+    color: #EF233C;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 .about .about-text a.btn {
     margin-top: 15px;
 }
