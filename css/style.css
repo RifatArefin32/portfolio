@@ -1008,6 +1008,110 @@ a:focus {
 }
 
 
+
+/*******************************/
+/********* project CSS *********/
+/*******************************/
+.project {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 15px 0;
+    margin: 45px 0;
+}
+
+.project .row {
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project .col-md-4 {
+    padding: 0;
+    display: flex;
+}
+
+.project .project-item {
+    position: relative;
+    background: #ffffff;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.project .featured-item {
+    box-shadow: 0px 0px 10px rgba(124, 116, 116, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.project .project-header,
+.project .project-body,
+.project .project-footer {
+    position: relative;
+    text-align: center;
+}
+
+.project .project-header {
+    padding-top: 40px;
+    color: #414141;
+}
+
+.project .project-item.featured-item .project-header {
+    color: #EF233C;
+}
+
+.project .project-title h2 {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #EF233C;
+}
+
+.project .project-body {
+    padding: 16px;
+    margin: 16px;
+}
+
+.project .project-description p {
+    font-size: 16px;
+}
+
+.project .project-item .project-action {
+    padding-bottom: 45px;
+}
+
+.project .project-item .project-action .btn {
+    color: #ffffff;
+    background: #414141;
+    box-shadow: inset 0 0 0 50px #414141;
+}
+
+.project .project-item .project-action .btn:hover {
+    color: #414141;
+    background: transparent;
+    box-shadow: inset 0 0 0 0 #414141;
+    border-color: #414141;
+}
+
+.project .project-item.featured-item .project-action .btn {
+    color: #ffffff;
+    background: #EF233C;
+    box-shadow: inset 0 0 0 50px #EF233C;
+}
+
+.project .project-item.featured-item .project-action .btn:hover {
+    color: #EF233C;
+    background: transparent;
+    box-shadow: inset 0 0 0 0 #EF233C;
+    border-color: #EF233C;
+}
+
+
+
+
+
 /*******************************/
 /********* Pricing CSS *********/
 /*******************************/
