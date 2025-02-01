@@ -1002,215 +1002,103 @@ a:focus {
 }
 
 
-
 /*******************************/
-/*********** Team CSS **********/
+/********* research CSS *********/
 /*******************************/
-.team {
+.research {
     position: relative;
     width: 100%;
-    padding: 45px 0 15px 0;
+    padding: 45px 0 0 0;
+    margin: 45px 0;
 }
 
-.team .team-item {
-    position: relative;
-    background: #ffffff;
-    margin-bottom: 30px;
+.research .row {
+    padding: 0 15px;
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    box-shadow: inset 0 0 0 0 transparent;
-    transition: ease-out 0.5s;
+    flex-wrap: wrap;
 }
 
-.team .team-img {
-    position: relative;
-    width: 50%;
-    overflow: hidden;
-}
-
-.team .team-img img {
-    position: relative;
-    width: 100%;
-    transition: .5s;
-}
-
-.team .team-text {
-    position: relative;
-    width: 50%;
-    padding: 0 30px;
-}
-
-.team .team-text h2 {
-    color: #EF233C;
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 5px;
-    transition: 1s;
-}
-
-.team .team-text h4 {
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 15px;
-    transition: 1s;
-}
-
-.team .team-text p {
-    margin-bottom: 20px;
-    transition: 1s;
-}
-
-.team .team-social {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.team .team-social a.btn {
-    width: 35px;
-    height: 35px;
+.research .col-md-12 {
     padding: 0;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
-    font-weight: normal;
-    margin-right: 5px;
 }
 
-.team .team-item:hover {
-    box-shadow: inset 800px 0 0 0 #EF233C;
-}
-
-.team .team-item:hover .team-img img {
-    transform: scale(1.2);
-}
-
-.team .team-item:hover .team-text h2,
-.team .team-item:hover .team-text h4,
-.team .team-item:hover .team-text p {
-    color: #ffffff;
-}
-
-.team .team-item:hover .team-social a.btn {
+.research .research-item {
+    position: relative;
     background: #ffffff;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
 }
 
-.team .team-item:hover .team-social a.btn:hover {
-    border-color: #ffffff;
-}
-
-@media(max-width: 575.98px) {
-    .team .team-text {
-        padding: 0 15px;
-    }
-    
-    .team .team-text h2 {
-        font-size: 16px;
-        margin-bottom: 0;
-    }
-
-    .team .team-text h4 {
-        margin-bottom: 5px;
-    }
-
-    .team .team-text p {
-        font-size: 14px;
-        line-height: 18px;
-        margin-bottom: 10px;
-    }
-}
-
-
-/*******************************/
-/******* Testimonial CSS *******/
-/*******************************/
-.testimonial {
-    position: relative;
-    margin: 45px 0;
-    padding: 90px 0;
-    background: #EF233C;
-}
-
-.testimonial .container {
-    max-width: 900px;
-}
-
-.testimonial .testimonial-icon {
-    margin-bottom: 45px;
-    text-align: center;
-}
-
-.testimonial .testimonial-icon i {
-    font-size: 60px;
-    color: rgba(256, 256, 256, .5);
-}
-
-.testimonial .testimonial-item {
-    position: relative;
-    margin: 0 15px;
-    text-align: center;
-}
-
-.testimonial .testimonial-img {
-    position: relative;
-    margin-bottom: 15px;
+.research .featured-item {
+    box-shadow: 5px 5px 20px rgba(124, 116, 116, 0.2);
     z-index: 1;
+    border-radius: 10px;
 }
 
-.testimonial .testimonial-item img {
-    margin: 0 auto;
-    width: 120px;
-    padding: 10px;
-    border: 5px dotted #ffffff;
-    border-radius: 100px;
-}
-
-.testimonial .testimonial-text {
+.research .research-header,
+.research .research-body,
+.research .research-footer {
     position: relative;
-    margin-top: -70px;
-    padding: 65px 35px 30px 35px;
     text-align: center;
-    background: #ffffff;
-    border-radius: 500px;
 }
 
-.testimonial .testimonial-item p {
-    font-size: 18px;
-    font-style: italic;
+.research .research-header {
+    padding-top: 40px;
+    color: #414141;
 }
 
-.testimonial .testimonial-text h3 {
+.research .research-item.featured-item .research-header {
     color: #EF233C;
+}
+
+.research .research-title h2 {
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #111111;
+}
+
+.research .research-description p {
+    font-size: 16px;
+}
+
+.research .research-description span {
     font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 10px;
+    color: #EF233C;
 }
 
-.testimonial .testimonial-text h4 {
-    color: #666666;
-    font-size: 14px;
-    margin-bottom: 0;
+.research .research-item .research-action {
+    padding-bottom: 30px;
 }
 
-.testimonial .owl-dots {
-    margin-top: 15px;
-    text-align: center;
+.research .research-item .research-action .btn {
+    color: #ffffff;
+    background: #414141;
+    box-shadow: inset 10px 0 0 60px #111111;
 }
 
-.testimonial .owl-dot {
-    display: inline-block;
-    margin: 0 5px;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background: rgba(256, 256, 256, .5);
+.research .research-item .research-action .btn:hover {
+    color: #414141;
+    background: transparent;
+    box-shadow: inset 0 0 0 0 #414141;
+    border-color: #414141;
 }
 
-.testimonial .owl-dot.active {
-    background: #ffffff;
+.research .research-item.featured-item .research-action .btn {
+    color: #ffffff;
+    background: #EF233C;
+    box-shadow: inset 0 0 0 50px #EF233C;
+}
+
+.research .research-item.featured-item .research-action .btn:hover {
+    color: #EF233C;
+    background: transparent;
+    box-shadow: inset 0 0 0 0 #EF233C;
+    border-color: #EF233C;
 }
 
 
@@ -1221,7 +1109,6 @@ a:focus {
     position: relative;
     width: 100%;
     margin: 45px 0;
-    background: #EF233C;
 }
 
 .contact .container-fluid {
