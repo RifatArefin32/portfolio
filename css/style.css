@@ -246,13 +246,15 @@ a:focus {
     position: relative;
     width: 100%;
     margin-bottom: 45px;
-    padding: 120px 0 0 0;
     overflow: hidden;
     background: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95)), url(../img/hero-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh; /* Full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero .container-fluid {
@@ -272,9 +274,8 @@ a:focus {
 
 .hero .hero-content {
     position: relative;
-    padding-left: 75px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
 }
@@ -282,13 +283,21 @@ a:focus {
 .hero .hero-text p {
     color: #ffffff;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 15px;
 }
 
 .hero .hero-text h1 {
     color: #ffffff;
     font-size: 60px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.hero .hero-text span {
+    color: #ffffff;
+    font-size: 80px;
     font-weight: 700;
     letter-spacing: 3px;
     margin-bottom: 15px;
