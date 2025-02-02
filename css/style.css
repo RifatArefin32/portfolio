@@ -934,7 +934,6 @@ a:focus {
 }
 
 .project .featured-item {
-    box-shadow: 0px 0px 10px rgba(124, 116, 116, 0.2);
     z-index: 1;
     border-radius: 10px;
 }
@@ -1034,7 +1033,6 @@ a:focus {
 }
 
 .research .featured-item {
-    box-shadow: 5px 5px 20px rgba(124, 116, 116, 0.2);
     z-index: 1;
     border-radius: 10px;
 }
@@ -1134,6 +1132,76 @@ a:focus {
     .contact .contact-form {
         padding: 90px 0;
     }
+}
+
+
+
+/*******************************/
+/*********** Blog CSS **********/
+/*******************************/
+.achievement {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 15px 0;
+}
+
+.achievement .achievement-item {
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.achievement .achievement-text {
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.achievement .achievement-text h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.achievement .achievement-text p {
+    margin-bottom: 10px;
+}
+
+.achievement .achievement-item a.btn {
+    margin-top: 10px;
+    padding: 8px 15px;
+}
+
+.achievement .achievement-item a.btn i {
+    margin-left: 5px;
+}
+
+.achievement .achievement-meta {
+    position: relative;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.achievement .achievement-meta p {
+    margin: 0 10px 0 0;
+    font-size: 13px;
+    color: #EF233C;
+}
+
+.achievement .achievement-meta i {
+    color: #111111;
+    margin-right: 5px;
+}
+
+.achievement .achievement-meta p:last-child {
+    margin: 0;
+}
+
+.achievement .achievement-button {
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
 }
 
 
