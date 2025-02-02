@@ -793,7 +793,6 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #EF233C;
     background: #ffffff;
 }
 
@@ -856,7 +855,6 @@ a:focus {
 }
 
 .banner .container {
-    max-width: 750px;
     text-align: center;
 }
 
@@ -864,22 +862,8 @@ a:focus {
     margin-bottom: 20px;
 }
 
-.banner .section-header p {
-    color: #414141;
-    background: transparent;
-}
-
-.banner .section-header p::after {
-    display: none;
-}
-
 .banner .section-header h2 {
     color: #ffffff;
-}
-
-.banner .section-header h2 span {
-    color: #414141;
-    font-size: 50px;
 }
 
 .banner .banner-text p {
