@@ -529,51 +529,6 @@ a:focus {
 
 
 /*******************************/
-/*********** Skills ************/
-/*******************************/
-.skill-section {
-    position: relative;
-    width: 100%;
-    padding: 45px 0 15px 0;
-}
-
-.skill-section .section-header {
-    margin-bottom: 30px;
-}
-
-.skills {
-    margin-bottom: 30px;
-}
-
-.skill-name {
-    margin-top: 15px;
-}
-
-.skill-name p {
-    display: inline-block;
-    margin-bottom: 5px;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.skill-name p:last-child {
-    float: right;
-}
-
-.progress {
-    height: 10px;
-    border-radius: 10px;
-    background: #dddddd;
-}
-
-.progress .progress-bar {
-    width: 0px;
-    background: #EF233C;
-    border-radius: 10px;
-    transition: 2s;
-}
-
-/*******************************/
 /******* Experience CSS ********/
 /*******************************/
 .experience {
@@ -711,6 +666,10 @@ a:focus {
     font-size: 16px;
 }
 
+.experience .timeline .timeline-text span {
+    color: #EF233C;
+}
+
 @media (max-width: 767.98px) {
     .experience .timeline::after {
         left: 8px;
@@ -756,6 +715,53 @@ a:focus {
         border-right: none;
         border-left: 5px solid #dddddd;
     }
+}
+
+
+
+/*******************************/
+/*********** Skills ************/
+/*******************************/
+.skill-section {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 15px 0;
+}
+
+.skill-section .section-header {
+    margin-bottom: 30px;
+}
+
+.skills {
+    margin-bottom: 30px;
+}
+
+.skill-name {
+    margin-top: 15px;
+}
+
+.skill-name p {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.skill-name p:last-child {
+    float: right;
+}
+
+.progress {
+    height: 10px;
+    border-radius: 10px;
+    background: #dddddd;
+}
+
+.progress .progress-bar {
+    width: 0px;
+    background: #EF233C;
+    border-radius: 10px;
+    transition: 2s;
 }
 
 
