@@ -484,7 +484,7 @@ a:focus {
 .about {
     position: relative;
     width: 100%;
-    margin: -45px 0 45px 0;
+    margin: 0px 0 45px 0;
 }
 
 .about .col-lg-6 {
@@ -512,17 +512,13 @@ a:focus {
 }
 
 .about .about-text p {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .about .about-text span{
     color: #EF233C;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
-}
-
-.about .about-text a.btn {
-    margin-top: 15px;
 }
 
 @media (max-width: 991.98px) {
