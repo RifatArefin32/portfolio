@@ -1075,12 +1075,12 @@ a:focus {
 
 .contact .container h3 {
     color:#161414;
-    font-size: x-large;
+    font-size: larger;
 }
 
 .contact .container p {
     color:#3d3838;
-    font-size: larger;
+    font-size:medium;
 }
 
 @media (max-width: 767.98px) {
@@ -1288,10 +1288,16 @@ a:focus {
 
 .footer .footer-social a {
     display: inline-block;
-    margin: 0 8px;
+    margin: 8px 8px;
     font-size: 26px;
     color: white;
     transition: 0.3s ease-in-out;
+    border-radius: 100%;
+}
+
+.footer .footer-social i {
+    font-size: 36px;
+    padding: 10px;
 }
 
 .footer .footer-social a:hover {
@@ -1312,7 +1318,7 @@ a:focus {
 }
 
 .footer .footer-bottom a:hover {
-    color: #EF233C;
+    color: #111111;
 }
 
 @media (max-width: 768px) {
